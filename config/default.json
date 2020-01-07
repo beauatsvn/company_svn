@@ -1,0 +1,9 @@
+{
+  "development":
+  {
+    "node_port": 8888,
+    "auth_port": 12345,
+    "database": "mongodb://localhost:27017",
+    "schema": "company_svn"
+  }
+}
