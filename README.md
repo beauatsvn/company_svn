@@ -15,7 +15,7 @@ mongoose.connect(engine, { useNewUrlParser: true, useUnifiedTopology: true, useC
 module.exports = mongoose
 ```
 
-#API Port
+# API Port
 There are two APIs created within this project app.js and auth.js. The former is for accessing the database resources of customer information, while the later is built for access control. It uses [JSON Web Tokens](https://jwt.io/) to implements the security measure.
 
 The port can be configured through the file ./config/default.json
@@ -31,7 +31,7 @@ The port can be configured through the file ./config/default.json
 }
 ```
 
-#Environment Variable
+# Environment Variable
 This API uses system environment variables and must be setup before running the application
 |Environment Variable|Example|
 |--|--|
