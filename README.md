@@ -36,7 +36,7 @@ This API uses system environment variables and must be setup before running the 
 |Environment Variable |Example                    |\
 |---------------------|---------------------------|\
 |NODE_ENV             |"development", "production"|\
-|svn_jwtPrivateKey    |"12345"                    |\
+|svn_jwtPrivateKey    |"12345"                    |
 
 
 # Router
