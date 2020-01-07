@@ -46,7 +46,8 @@ The API handles http request from client application with [Express.js](https://w
 |/customer      |The RESTFul API for customer data                                        |\
 |/email         |The RESTFul API for customer's email                                     |\
 |/location      |The RESTFul API for customer's location                                  |\
-|/customermaster|The RESTFul API for the customer with the email and location information |\
+|/customermaster|The RESTFul API for the customer with the email and location information |
+
 For more detail around the API router, go to [https://app.swaggerhub.com/apis-docs/COMPANY_SVN/customer/1.0.0](https://app.swaggerhub.com/apis-docs/COMPANY_SVN/customer/1.0.0)
 
 There are multiple router classes and object classes created to for different requirements. The RootRouter provide basic function to create a express router inisde the class. ObjectRouter can take a resource object and SchemaRouter adds the schema for the resource object. AuthRouter is specificially built for authentication and registration purpose.
