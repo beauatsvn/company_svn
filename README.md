@@ -1,4 +1,5 @@
-# Database
+# Server Setup
+## Database
 The API is built on top of **[MongoDB](https://www.mongodb.com)**, which is a NoSQL database designed for storing documents in JSON-based format. For a demonstration purpose, the community server version can be downloaded from [https://www.mongodb.com](https://www.mongodb.com) and installed on your local host. The API uses the JSON file which is located at */config/default.json* to configure the **URL** and **Schema** for database connection. This file can be customised for development, testing, or production environment.
 
 ## Connect to the database
@@ -15,10 +16,28 @@ mongoose.connect(engine, { useNewUrlParser: true, useUnifiedTopology: true, useC
 module.exports = mongoose
 ```
 
-# API Port
-There are two APIs created within this project app.js and auth.js. The former is for accessing the database resources of customer information, while the later is built for access control. It uses [JSON Web Tokens](https://jwt.io/) to implements the security measure.
+## API Server and Authentication Server
+There are two Javascript files created for this project app.js and auth.js. The former is for accessing the database resources of customer information, while the later is built for access control. It uses [JSON Web Tokens](https://jwt.io/) to implements the security measure.
 
-The port can be configured through the file ./config/default.json
+They can be running all together on the same server or separately on different hosts. To quickly start the server in a development environment, go to the root folder:
+```bash
+node app.js
+global.gConfig: {"node_port":8888,"auth_port":12345,"database":"mongodb://localhost:27017","schema":"company_svn"}
+Environment: development
+Listening on port 8888!
+Connected to database...
+```
+
+```bash
+node auth.js
+global.gConfig: {"node_port":8888,"auth_port":12345,"database":"mongodb://localhost:27017","schema":"company_svn"}
+Environment: development
+Listening on port 12345!
+Connected to database...
+```
+
+## Configration file
+The port can be configured through changing the file ./config/default.json. It defines as below:
 ```Javascript
 {
   "development":
@@ -27,11 +46,18 @@ The port can be configured through the file ./config/default.json
     "auth_port": 12345,
     "database": "mongodb://localhost:27017",
     "schema": "company_svn"
+  },
+  "production":
+  {
+    "node_port": 8888,
+    "auth_port": 8080,
+    "database": "mongodb://localhost:27017",
+    "schema": "company_svn"
   }
 }
 ```
 
-# Environment Variable
+## Environment Variable
 This API uses system environment variables and must be setup before running the application\
 |Environment Variable |Example                    |\
 |---------------------|---------------------------|\
