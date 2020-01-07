@@ -15,7 +15,7 @@ module.exports = class AuthRouter extends ObjectRouter {
   {
     this.router.post('/',
     async (req, res) => {
-      const result = await this.tryCatchLog
+      const result = await this.RouterHelper.tryCatchLog
       (
         this.RouterHelper.reqSchemaValidator
         (

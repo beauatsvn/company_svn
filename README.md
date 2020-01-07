@@ -31,6 +31,13 @@ The port can be configured through the file ./config/default.json
 }
 ```
 
+#Environment Variable
+This API uses system environment variables and must be setup before running the application
+|Environment Variable|Example|
+|--|--|
+|NODE_ENV|"development", "production"|
+|svn_jwtPrivateKey|"12345"|
+
 
 # Router
 The API handles http request from client application with [Express.js](https://www.mongodb.com). It redirects the request from different urls to the actual server resource that the client is looking for. The router within the API is a services that processes GET, POST, PUT, and DELETE requests that are sent to the following URL:
