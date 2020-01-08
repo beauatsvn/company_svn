@@ -16,8 +16,15 @@ const app = express()
 
 
 app.use(express.json())
-if(process.env.NODE_ENV === 'development') app.use(morgan('tiny'))
-app.use('/', indexRouter.getRouter())
+if(process.env.NODE_ENV === 'development')
+{
+  app.use(morgan('tiny'))
+  app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, x-auth-token");
+    next();
+})
+}app.use('/', indexRouter.getRouter())
 app.use('/customers',customerRouter.getRouter())
 app.use('/customermaster',customerMasterRouter.getRouter())
 app.use('/emails', emailRouter.getRouter())
