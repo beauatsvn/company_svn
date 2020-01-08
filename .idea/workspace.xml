@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a85e7977-e4de-499d-b053-169b35a93353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/RouterHelper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/modelFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/schema/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/schema/customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/schema/email.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/schema/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/schema/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/AuthObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/BaseObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/DataObjectInterface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/EncryptedObjectInterface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/MasterObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/RegObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/ResourceObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/AuthRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/ObjectRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/RootRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/SchemaRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/routerFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/schema/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/schema/customer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/schema/customerMaster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/schema/email.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/schema/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/schema/login.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="beau.zhai@servian.com" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W3wwZ60qei2JmNYp3xMl4Tsydd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a85e7977-e4de-499d-b053-169b35a93353" name="Default Changelist" comment="" />
+      <created>1578391825086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578391825086</updated>
+      <workItem from="1578391827495" duration="76000" />
+      <workItem from="1578391934044" duration="50000" />
+      <workItem from="1578391991992" duration="1224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="202" key="#Notifications" timestamp="1578391950808">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="202" key="#Notifications/0.23.1680.1027@0.23.1680.1027" timestamp="1578391950808" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578392084943">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578392084943" />
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1578393213940">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1578393213940" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1578391983456">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1578391983456" />
+  </component>
+</project>
